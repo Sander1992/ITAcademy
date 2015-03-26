@@ -10,7 +10,7 @@ public class Test {
         System.out.println(number.countNumber(665));
         System.out.println(number.sumOfNumbers(1));
         System.out.println(number.sumOfNumbers(556)+ " \n");
-        perfectNum.findPerfect(50000);
+        System.out.println( perfectNum.findPerfect(50000));
 
     }
 }

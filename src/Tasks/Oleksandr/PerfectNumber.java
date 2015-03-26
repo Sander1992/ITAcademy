@@ -12,8 +12,7 @@ public class PerfectNumber {
         ArrayList<Integer> perfects = new ArrayList<Integer>();
         int buffer;
         int counter;
-        ArrayList<Integer> perfect = new ArrayList<Integer>();
-        int maxDivisor = 0;
+        int maxDivisor;
 
         //All perfect numbers are even
         for(int i = 2; i <= n; i += 2)
@@ -42,9 +41,7 @@ public class PerfectNumber {
             }
             if(counter == i)
             {
-                System.out.println(i);
-                perfect.add(i);
-
+                perfects.add(i);
             }
 
         }
